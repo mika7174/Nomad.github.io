@@ -1,0 +1,39 @@
+.content_wrap {
+  margin-top: 120px;
+  width: 100%;
+  height: auto;
+}
+.work_section {
+  width: 90%;
+  margin: 0 auto;
+}
+.work {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.work li {
+  width: 24.5%;
+  height: 0;
+  padding-top: 15%;
+  border: solid 0.7px;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 0.5%;
+  margin-left: 0.5%;
+  overflow: hidden;
+}
+
+.work li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: contain;
+}
+
+.work li.large_box {
+  width: 100%;
+  padding-top: 30%;
+}
