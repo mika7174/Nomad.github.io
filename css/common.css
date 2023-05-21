@@ -66,7 +66,7 @@ footer {
   width: 100%;
   height: auto;
 }
-.work_section {
+.content_inner {
   width: 1020px;
   margin: 0 auto;
 }
@@ -105,7 +105,7 @@ footer {
   .cate_list {
     width: 90%;
   }
-  .work_section {
+  .content_inner {
     width: 90%;
   }
   footer {
@@ -121,7 +121,7 @@ footer {
   .cate_list li:not(:first-child) {
     display: none;
   }
-  .work_section {
+  .content_inner {
     width: 90%;
   }
   .work li {
