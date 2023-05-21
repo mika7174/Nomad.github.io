@@ -4,6 +4,7 @@ header {
   margin-top: 8%;
   padding-bottom: 2%;
   border-bottom: dotted 0.7px;
+  position: relative;
 }
 #logo {
   font: italic 1.6em serif;
@@ -11,13 +12,52 @@ header {
 .cate_list {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 1020px;
   margin: 0 auto;
   align-items: end;
 }
 footer {
-  width: 90%;
+  width: 1020px;
   margin: 5% auto;
+}
+#hambuger_button {
+  position: absolute;
+  bottom: calc(50% - 9px);
+  right: 1rem;
+  border: dotted 0.7px;
+  width: 12%;
+  height: 0;
+  padding-top: 12%;
+  border-radius: 50%;
+  display: none;
+}
+#close_btn {
+  background-color: #857169;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hambuger_wrap {
+  position: fixed;
+  width: 55%;
+  top: 0;
+  right: -55%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #c2b1aa;
+  z-index: 1;
+  display: none;
+  animation-duration: 1s;
+}
+.hambuger_list {
+  margin-top: 20px;
+}
+.hambuger_list li {
+  margin-bottom: 15px;
 }
 
 /* 리스트 */
@@ -27,7 +67,7 @@ footer {
   height: auto;
 }
 .work_section {
-  width: 90%;
+  width: 1020px;
   margin: 0 auto;
 }
 .work {
@@ -59,4 +99,39 @@ footer {
 .work li.large_box {
   width: 100%;
   padding-top: 30%;
+}
+
+@media screen and (max-width: 1020px) {
+  .cate_list {
+    width: 90%;
+  }
+  .work_section {
+    width: 90%;
+  }
+  footer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cate_list {
+    width: 90%;
+    font-size: 10px;
+  }
+  .cate_list li:not(:first-child) {
+    display: none;
+  }
+  .work_section {
+    width: 90%;
+  }
+  .work li {
+    width: 100%;
+    padding-top: 50%;
+  }
+  .work li.large_box {
+    padding-top: 50%;
+  }
+  #hambuger_button {
+    display: block;
+  }
 }
