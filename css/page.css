@@ -11,6 +11,9 @@
   object-fit: contain;
   object-position: center;
 }
+.page_video {
+  width: 100%;
+}
 
 .page_list > li {
   margin-bottom: 15px;
@@ -27,8 +30,14 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.img_list li {
+.line3_img_list li {
+  width: 33%;
+}
+.line2_img_list li {
   width: 49.7%;
+}
+.line1_img_list li {
+  width: 100%;
 }
 .img_list img {
   width: 100%;
