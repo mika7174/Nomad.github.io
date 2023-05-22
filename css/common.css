@@ -135,7 +135,7 @@ footer {
     padding-top: 50%;
   }
   .work li.large_box img {
-    top: 0;
+    top: 0px;
   }
   #hambuger_button {
     display: block;
