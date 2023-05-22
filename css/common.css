@@ -133,6 +133,7 @@ footer {
   }
   .work li.large_box {
     padding-top: 50%;
+    top: 0;
   }
   #hambuger_button {
     display: block;
