@@ -40,7 +40,7 @@ footer {
   display: none;
 }
 #close_btn {
-  background-color: #857169;
+  background-color: #8a8a8a;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -56,7 +56,7 @@ footer {
   height: 100vh;
   box-sizing: border-box;
   padding: 20px;
-  background-color: #c2b1aa;
+  background-color: #b1b1b1;
   z-index: 1;
   display: none;
   font-family: "uxf0awt";
