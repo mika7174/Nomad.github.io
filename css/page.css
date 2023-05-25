@@ -29,7 +29,8 @@
   margin-bottom: 10%;
 }
 .page_list h2 {
-  font: italic 1.8em serif;
+  font-size: 1.8em;
+  font-family: "Dutch801 Rm BT";
   padding: 15px 0;
 }
 .page_list p {
@@ -52,7 +53,7 @@
 .img_list img {
   width: 100%;
   overflow: hidden;
-  border: dotted 0.7px;
+  /* border: dotted 0.7px; */
   box-sizing: border-box;
   position: relative;
 }
